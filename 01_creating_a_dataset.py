@@ -2,10 +2,10 @@ import cv2
 #import os
 
 cam = cv2.VideoCapture(0)
-"""
+""""
 cam.set(3, 1080) # set video width
 cam.set(4, 720) # set video height
-"""
+""""
 cam.set(5, 5) #set video fps
 
 face_detector = cv2.CascadeClassifier('/home/pi/Desktop/FaceReco/haarcascade_frontalface_default.xml')#you must probably edit this
