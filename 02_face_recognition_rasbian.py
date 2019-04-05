@@ -1,6 +1,7 @@
 import face_recognition
 import cv2
-
+"""
+"""
 video_capture = cv2.VideoCapture(0)
 video_capture.set(5, 4) 
 
